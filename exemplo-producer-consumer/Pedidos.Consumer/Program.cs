@@ -13,7 +13,7 @@ namespace Pedidos.Worker
             var config = new ConsumerConfig
             {
                 BootstrapServers = "localhost:9092",
-                GroupId = "pedidos-topico-consumer",
+                GroupId = "pedidos-consumer",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
 
